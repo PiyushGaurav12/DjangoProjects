@@ -1,0 +1,39 @@
+.carousel-item{
+    height: 550px;
+  
+}
+.carousel-caption{
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    color: #000;
+    text-align: left;
+    width: 40%;
+}
+.icon{
+    font-size: 4rem;
+    
+    
+}
+.card-img-top{
+    height: 170px;
+}
+.companies{
+    background-color: rgb(183, 182, 182);
+}
+@media only screen and (max-width: 786px){
+   .carousel-item{
+    height: auto;
+   }
+   .carousel-caption{
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    color: #000;
+    text-align: left;
+    width: 40%;
+   }
+   .carousel-caption h1{
+       font-size: 2rem;
+   }
+}
